@@ -82,15 +82,31 @@
             android:background="#F2F1F1"
             android:orientation="horizontal">
 
-            <EditText
-                android:id="@+id/eligeSabor"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:hint="@string/texto_elige" />
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/eligeSabor"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+
+
+                    android:hint="@string/texto_elige" />
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="20dp"
+                    android:layout_marginTop="50dp"
+                    android:onClick="close"
+                    android:text="Salir sin pedir" />
+            </LinearLayout>
 
 
             <LinearLayout

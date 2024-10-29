@@ -62,7 +62,6 @@ public class ActEntrega extends AppCompatActivity {
                 if (i == 0) {
                     // Si selecciona la primera opción (Recogida en tienda)
                     et1 = (EditText) findViewById(R.id.tv_direccion);
-
                     et1.setVisibility(View.INVISIBLE);
                     lv2.setVisibility(View.VISIBLE);
 
@@ -85,5 +84,11 @@ public class ActEntrega extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+    public void close(View view){
+        finish();
+    }
+    public void realizar(View view){
+        Toast.makeText(getApplicationContext(), "Preparando pedido", Toast.LENGTH_LONG).show();
     }
 }

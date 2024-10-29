@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -90,5 +91,8 @@ public class MainActivity extends AppCompatActivity {
         siguiente.putExtra("precio",precio);
 
         startActivity(siguiente);
+    }
+    public void close(View view){
+        finish();
     }
 }
