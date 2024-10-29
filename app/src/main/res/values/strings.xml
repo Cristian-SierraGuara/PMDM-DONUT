@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">006</string>
+    <string name="saludo">BIENVENIDO</string>
+    <string name="texto_configura">CONFIGURA TU DONUT</string>
+    <string name="texto_elige">Elige tu sabor (2€)</string>
+    <string name="preparado">¡Preparado! Su precio es: </string>
+    <string name="lacasito">- Lacasitos (+0,60€)</string>
+    <string name="pepita">- Pepitas Chocolate (1€)</string>
+    <string name="nata">- Nata (+1,20€)</string>
+    <string name="crema">- Relleno crema (+1,50€)</string>
+    <string name="kitkat">- KitKat (+0,90€)</string>
+    <string name="nubes">- Nubes (+0,80€)</string>
+
+    <string name="sabor_elegido"> HAS ELEGIDO UN DONUT SABOR: </string>
+    <string name="elige_punto">ELIGE TU PUNTO DE RECOGIDA:</string>
+
+</resources>
